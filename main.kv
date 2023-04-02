@@ -1,0 +1,386 @@
+<scrollerPage>:
+	viewclass: 'CustomButton' # defines the viewtype for the data items.
+	orientation: "horizontal"
+	spacing: 40
+	padding: 20, 10
+    size_hint_x: 0.4
+    size_hint_y: 1
+	space_x: 0
+
+	RecycleBoxLayout:
+		color: (0, 0.7, 0.4, 0.8)
+		default_size: None, dp(56)
+
+		# defines the size of the widget in reference to width and height
+		default_size_hint: 1, None
+		size_hint_y: None
+		height: self.minimum_height
+		orientation: 'vertical' # defines the orientation of data items
+
+
+
+
+
+<MyApp>:
+
+
+    BoxLayout:
+        orientation: 'vertical'
+        size: root.width, root.height
+        spacing: 5
+
+
+        BoxLayout:
+            orientation: 'horizontal'
+            size: root.width,root.height
+            size_hint_x: 1
+            size_hint_y: 0.5
+            spacing: 3
+
+        # First row of buttons
+        BoxLayout:
+            orientation: 'horizontal'
+            size: root.width,root.height
+            size_hint_x: 1
+            size_hint_y: 1
+            spacing: 5
+
+
+
+            Button:
+                text: 'Aqua'
+                id: mybutton1
+
+                size_hint_x: 0.5
+
+                on_press: app.savedata(self)
+
+            Button:
+                text: 'Button 2'
+                id: mybutton2
+                background_color: 1, 0, 0, 1  # Red
+                size_hint_x: 0.5
+
+                on_press: app.savedata(self)
+            Button:
+                text: 'Button 3'
+                id: mybutton3
+                background_color: 1, 0, 0, 1  # Red
+                size_hint_x: 0.5
+
+                on_press: app.savedata(self)
+            Button:
+                text: 'Button 4'
+                id: mybutton4
+                background_color: 1, 0, 0, 1  # Red
+                size_hint_x: 0.5
+
+                on_press: app.savedata(self)
+
+            Button:
+                text: 'Button 5'
+                id: mybutton5
+                background_color: 1, 0, 0, 1  # Red
+                size_hint_x: 0.5
+
+                on_press: app.savedata(self)
+
+            Button:
+                text: 'Button 6'
+                id: mybutton6
+                background_color: 1, 0, 0, 1  # Red
+                size_hint_x: 0.5
+                on_press: app.savedata(self)
+
+            Button:
+                text: 'Button 7'
+                id: mybutton7
+                background_color: 1, 0, 0, 1  # Red
+                size_hint_x: 0.5
+                on_press: app.savedata(self)
+
+            Button:
+                text: 'Button 8'
+                id: mybutton8
+                background_color: 1, 0, 0, 1  # Red
+                size_hint_x: 0.5
+                on_press: app.savedata(self)
+
+            Button:
+                text: 'Button 9'
+                id: mybutton9
+                background_color: 1, 0, 0, 1  # Red
+                size_hint_x: 0.5
+                on_press: app.savedata(self)
+
+            Button:
+                text: 'Button 10'
+                id: mybutton10
+                background_color: 1, 0, 0, 1  # Red
+                size_hint_x: 0.5
+                on_press: app.savedata(self)
+            Button:
+                text: 'Button 11'
+                id: mybutton11
+                background_color: 1, 0, 0, 1  # Red
+                size_hint_x: 0.5
+                on_press: app.savedata(self)
+
+            Button:
+                text: 'Button 12'
+                id: mybutton12
+                background_color: 1, 0, 0, 1  # Red
+                size_hint_x: 0.5
+                on_press: app.savedata(self)
+
+            Button:
+                text: ''
+                id: mybutton13
+                background_color: 1, 0, 0, 1  # Red
+                size_hint_x: 0.5
+                on_press: app.savedata(self)
+#        BoxLayout:
+#            orientation: 'horizontal'
+#            size: root.width,root.height
+#            size_hint_x: 0.5
+#            size_hint_y: 0.5
+#            spacing: 5
+
+
+
+
+        BoxLayout:
+            orientation: 'horizontal'
+            size: root.width,root.height
+            size_hint_x: 1
+            size_hint_y: 1
+            spacing: 5
+
+
+            Button:
+                text: ''
+                id: mybutton14
+                background_color: 1, 0.5, 0, 1  # Orange
+                size_hint_x: 0.5
+                on_press: app.savedata(self)
+
+            Button:
+                text: ''
+                id: mybutton15
+                background_color: 1, 1, 0, 1  # Yellow
+                size_hint_x: 0.5
+                on_press: app.savedata(self)
+
+            Button:
+                text: ''
+                id: mybutton16
+                background_color: 0, 1, 0, 1  # Green
+                size_hint_x: 0.5
+                on_press: app.savedata(self)
+
+            Button:
+                text: ''
+                id: mybutton17
+                background_color: 0, 1, 1, 1  # Cyan
+                size_hint_x: 0.5
+                on_press: app.savedata(self)
+
+            Button:
+                text: ''
+                id: mybutton18
+                background_color: 0, 0, 1, 1  # Blue
+                size_hint_x: 0.5
+                on_press: app.savedata(self)
+
+            Button:
+                text: ''
+                id: mybutton19
+                background_color: 0.5, 0, 1, 1  # Purple
+                size_hint_x: 0.5
+                on_press: app.savedata(self)
+
+            Button:
+                text: ''
+                id: mybutton20
+                background_color: 1, 0, 1, 1  # Magenta
+                size_hint_x: 0.5
+                on_press: app.savedata(self)
+
+            Button:
+                text: ''
+                id: mybutton21
+                background_color: 0, 1, 1, 1  # Cyan
+                size_hint_x: 0.5
+                on_press: app.savedata(self)
+            Button:
+                text: ''
+                id: mybutton22
+                background_color: 0, 0, 1, 1  # Blue
+                size_hint_x: 0.5
+                on_press: app.savedata(self)
+
+            Button:
+                text: ''
+                id: mybutton23
+                background_color: 0.5, 0, 1, 1  # Purple
+                size_hint_x: 0.5
+                on_press: app.savedata(self)
+
+            Button:
+                text: ''
+                id: mybutton24
+                background_color: 1, 0, 1, 1  # Magenta
+                size_hint_x: 0.5
+                on_press: app.savedata(self)
+            Button:
+                text: 'Button 1'
+                id: mybutton25
+                background_color: 1, 0, 0, 1  # Red
+                size_hint_x: 0.5
+                on_press: app.savedata(self)
+
+            Button:
+                text: 'Button 2'
+                id: mybutton26
+                background_color: 1, 0.5, 0, 1  # Orange
+                size_hint_x: 0.5
+                on_press: app.savedata(self)
+        BoxLayout:
+            orientation: 'horizontal'
+            size: root.width,root.height
+            size_hint_x: 1
+            size_hint_y: 1
+            spacing: 5
+
+
+
+
+
+
+
+            Button:
+                text: 'Button 3'
+                id: mybutton27
+                background_color: 1, 1, 0, 1  # Yellow
+                size_hint_x: 0.5
+                on_press: app.savedata(self)
+
+            Button:
+                text: 'Button 4'
+                id: mybutton28
+                background_color: 0, 1, 0, 1  # Green
+                size_hint_x: 0.5
+                on_press: app.savedata(self)
+
+
+        BoxLayout:
+            orientation: 'horizontal'
+            size: root.width,root.height
+            size_hint_x: 1
+            size_hint_y: 1
+            spacing: 5
+
+
+            Button:
+                text: 'Button 5'
+                id: mybutton29
+                background_color: 0, 1, 1, 1  # Cyan
+                size_hint_x: 0.5
+
+            Button:
+                text: 'Button 6'
+                id: mybutton30
+                background_color: 0, 0, 1, 1  # Blue
+                on_press: app.amountsavedata(self)
+                size_hint_x: 0.5
+
+            Button:
+                text: 'Button 7'
+                id: mybutton31
+                background_color: 0.5, 0, 1, 1  # Purple
+                on_press: app.amountsavedata(self)
+                size_hint_x: 0.5
+
+            Button:
+                text: 'Button 8'
+                id: mybutton32
+                background_color: 1, 0, 1, 1  # Magenta
+                on_press: app.amountsavedata(self)
+                size_hint_x: 0.5
+            Button:
+                text: 'Button 8'
+                id: mybutton33
+                background_color: 1, 0, 1, 1  # Magenta
+                on_press: app.amountsavedata(self)
+                size_hint_x: 0.5
+            Button:
+                text: 'Button 8'
+                id: mybutton34
+                background_color: 1, 0, 1, 1  # Magenta
+                size_hint_x: 0.5
+                on_press: app.amountsavedata(self)
+            Button:
+                text: 'Button 8'
+                id: mybutton35
+                background_color: 1, 0, 1, 1  # Magenta
+                size_hint_x: 0.5
+                on_press: app.amountsavedata(self)
+            Button:
+                text: 'Button 8'
+                id: mybutton36
+                background_color: 1, 0, 1, 1  # Magenta
+                size_hint_x: 0.5
+                on_press: app.amountsavedata(self)
+            Button:
+                text: 'Button 8'
+                id: mybutton37
+                background_color: 1, 0, 1, 1  # Magenta
+                size_hint_x: 0.5
+        BoxLayout:
+            orientation: 'horizontal'
+            size: root.width,root.height
+            size_hint_x: 0.5
+            size_hint_y: 0.3
+        BoxLayout:
+            orientation: 'horizontal'
+            size: root.width,root.height
+            size_hint_x: 0.5
+            size_hint_y: 1
+            Switch:
+                id: switch
+            Label:
+                id: switch_label
+                text: 'cutting onn' if switch.active else 'cutting off'
+
+        BoxLayout:
+            orientation: 'horizontal'
+            size: root.width,root.height
+            size_hint_x: 1
+            size_hint_y: 4
+
+
+            BoxLayout:
+                size_hint_x: -0.2
+                size_hint_y: -0.2
+            scrollerPage:
+            BoxLayout:
+                size_hint_x: 0.5
+                size_hint_y: 0.5
+
+#            BoxLayout:
+#                orientation: 'horizontal'
+#                size: root.width,root.height
+#                Switch:
+#                    id: switch
+#                    Label:
+#                        id: switch_label
+#                        text: 'cutting onn' if switch.active else 'cutting off'
+
+
+
+
+
+
+
+
+

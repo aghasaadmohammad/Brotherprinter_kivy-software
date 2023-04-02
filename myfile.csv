@@ -1,0 +1,41 @@
+Colors - Display Name,Colors - Display Color,Colors - Print text,Text Color
+Aqua,#84e4b6ff,Aqua,#000000
+Schwarz,#000000,Schwarz,#ffffff
+Dunkelblau,#1b265d,Dunkelblau,#ffffff
+Grün,#045423,Grün,#ffffff
+Gold,#b89e14,Gold,#000000
+Lavendel,#715192,Lavendel,#ffffff
+Neon Blau,#2b75b3,Neon Blau,#ffffff
+Neon Grün,#44d62c,Neon Grün,#000000
+Neon Orange,#FF5F1F,Neon Orange,#000000
+Neon Pink,#FF10F0,Neon Pink,#000000
+Neon Gelb,#ffff00,Neon Gelb,#000000
+Lila,#8F00FF,Lila,#ffffff
+Rot,#af0a21,Rot,#ffffff
+Baby Blau,#89cff0,Baby Blau,#000000
+Silber,#d8d8d8,Silber,#000000
+Koralle,#ff4539,Koralle,#000000
+Weiß,#ffffff,Weiß,#000000
+Gelb,#FFF01F,Gelb,#000000
+Andere,Andere,Andere,#000000
+Placeholder,#c2c2c3,Placeholder,#000000
+Placeholder,#c2c2c4,Placeholder,#000000
+Placeholder,#c2c2c5,Placeholder,#000000
+Placeholder,#c2c2c6,Placeholder,#000000
+Placeholder,#c2c2c7,Placeholder,#000000
+Placeholder,#c2c2c8,Placeholder,#000000
+Placeholder,#c2c2c9,Placeholder,#000000
+ ,,,
+ ,,,
+Amounts,,,
+10,#c2c2c2,10,#000000
+50,#c2c2c2,50,#000000
+100,#c2c2c2,100,#000000
+250,#c2c2c2,250,#000000
+500,#c2c2c2,500,#000000
+750,#c2c2c2,750,#000000
+1,#c2c2c2,1,#000000
+Custom Amount,#c2c2c2,,#000000
+ ,,,
+ ,,,
+Folder Locaton,/home/pi/documents,,#000000
