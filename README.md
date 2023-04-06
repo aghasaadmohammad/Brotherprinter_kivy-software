@@ -1,9 +1,13 @@
 # Brotherprinter_kivy-software
-  #Freelancer didn't pay me for this software so I thought better make it opensource so Everyone who own brother printer can use it.
+ ** Freelancer didn't pay me for this software so I thought better make it opensource.**
+
+Raspberry pi 3 , Borther printer 1110NWB, Raspberry pi touch screen.
+
 Kivy_software
+
 Steps to run 
-Install python 3.7
-Install kivy and other dependencies.
+  Install python 3.7
+  Install kivy and other dependencies.
 
 
 In command line run:
