@@ -1,4 +1,5 @@
 # Brotherprinter_kivy-software
+  #Freelancer didn't pay me for this software so I thought better make it opensource so Everyone who own brother printer can use it.
 Kivy_software
 Steps to run 
 Install python 3.7
