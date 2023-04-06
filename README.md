@@ -6,6 +6,7 @@ Raspberry pi 3 , Borther printer 1110NWB, Raspberry pi touch screen.
 Kivy_software
 
 Steps to run 
+
   Install python 3.7
   Install kivy and other dependencies.
 
